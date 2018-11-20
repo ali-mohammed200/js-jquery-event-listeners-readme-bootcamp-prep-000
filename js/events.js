@@ -11,7 +11,7 @@ function frameIt(){
 }
 $(document).ready(function(){
   getIt();
-// call functions here
+  frameIt();
 
 });
 
