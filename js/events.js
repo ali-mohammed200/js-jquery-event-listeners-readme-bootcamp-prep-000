@@ -4,6 +4,11 @@ function getIt(){
     return;
   })
 }
+function frameIt(){
+  $('img').on('load', function(){
+    $('img').addClass('tasty');
+  })
+}
 $(document).ready(function(){
   getIt();
 // call functions here
