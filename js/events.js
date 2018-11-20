@@ -10,7 +10,7 @@ function frameIt(){
 }
 function pressIt(){
   $('input').on('keydown', function(eve){
-    if(eve.key === 'g'){
+    if(eve.key === 'G'){
       alert(`You Pressed G!`);
     }
   });
