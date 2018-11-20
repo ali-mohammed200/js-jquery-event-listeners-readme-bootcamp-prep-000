@@ -9,8 +9,8 @@ function frameIt(){
   })
 }
 function pressIt(){
-  $('input').on('keydown', function(eve){
-    if(eve.key === 'G'){
+  $('input').on('keydown', function(key){
+    if(key.which === 71){
       alert(`You Pressed G!`);
     }
   });
